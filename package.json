@@ -1,0 +1,28 @@
+{
+  "name": "is-name",
+  "description": "Checks if the given string contains a human name",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Sebastian Korotkiewicz",
+  "license": "MIT",
+  "keywords": [
+    "check",
+    "human",
+    "name"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skorotkiewicz/is-name.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skorotkiewicz/is-name/issues"
+  },
+  "homepage": "https://github.com/skorotkiewicz/is-name#readme",
+  "scripts": {
+    "test": "jest",
+    "prepare": "yarn test"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
